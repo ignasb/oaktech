@@ -1,1 +1,7 @@
-<lib-ot-input></lib-ot-input>
+<form [formGroup]="fg">
+  <lib-ot-input
+    [label]="'Test label'"
+    [placeholder]="'Test placeholder'"
+    formControlName="helloWorldControl"
+  ></lib-ot-input>
+</form>
